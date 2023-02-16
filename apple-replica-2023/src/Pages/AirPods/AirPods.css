@@ -1,0 +1,39 @@
+.airPodsProMax {
+    background: url(../../Resources/images/AirPods/airpods_max__f265q4g4ddym_small.png);
+    height: 700px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.airPodsProMax:hover {
+    scale: .99;
+}
+
+.disMax {
+    margin-top: 380px;
+}
+
+@media (min-width: 768px) {
+    .airPodsProMax {
+        background: url(../../Resources/images/AirPods/airpods_max__f265q4g4ddym_medium_2x.png);
+        height: 1100px;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .airPodsProMax  h1 {
+        font-size: 100px;
+    }
+    .airPodsProMax  h5 {
+        font-size: 30px;
+    }
+
+    .disMax {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 650px;
+        font-size: 30px;
+    }
+}

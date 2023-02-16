@@ -1,0 +1,21 @@
+/* iPad */
+.ipad {
+    background-image: url(../../Resources/images/Small/hero_ipad_order__752kv3kpn2qi_small.jpg);
+    background-size: 700px;
+}
+
+@media (min-width:768px) {
+    .ipad {
+        background-image: url(../../Resources/images/Medium/hero_ipad__rh99l6c3yuyy_mediumtall.jpg);
+        background-size: 900px;
+        background-color: white;
+        padding: 170px 0 0 300px;
+    }
+}
+
+@media (min-width:992px) {
+    .ipad {
+        background-image: url(../../Resources/images/Large/hero_ipad__rh99l6c3yuyy_largetall.jpg);
+        background-size: 2400px;
+    }
+}

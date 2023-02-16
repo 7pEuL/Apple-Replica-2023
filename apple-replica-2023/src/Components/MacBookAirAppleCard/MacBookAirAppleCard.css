@@ -1,0 +1,37 @@
+/* macbook-air */
+.macbook-air {
+    background-image: url(../../Resources/images/Small/promo_macbookair__fywl7i82fueu_small.png);
+}
+
+@media (min-width:768px) {
+    .macbook-air {
+        background-image: url(../../Resources/images/Medium/promo_macbookair__fywl7i82fueu_medium.png);
+        background-size: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .macbook-air {
+        background-image: url(../../Resources/images/Large/promo_macbookair_large.png);
+        background-size: 1250px;
+    }
+}
+
+/* card */
+.apple-card {
+    background-image: url(../../Resources/images/Small/tile__cauwwcyyn9hy_small.jpg);
+}
+
+@media (min-width:768px) {
+    .apple-card {
+        background-image: url(../../Resources/images/Medium/tile_medium.jpg);
+        background-size: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .apple-card {
+        background-image: url(../../Resources/images/Large/tile_large.jpg);
+        background-size: 1250px;
+    }
+}

@@ -1,0 +1,25 @@
+/* watch-ultra */
+.watch-ultra {
+    background-image: url(../../Resources/images/Small/hero_apple_watch_ultra__dtz0f3e8oscy_small.jpg);
+    background-size: 800px;
+}
+
+@media (min-width:768px) {
+    .watch-ultra {
+        background-image: url(../../Resources/images/Medium/hero_apple_watch_ultra__dtz0f3e8oscy_mediumtall.jpg);
+        background-size: 1050px;
+    }
+}
+
+@media (min-width:992px) {
+    .watch-ultra {
+        background-image: url(../../Resources/images/Large/hero_apple_watch_ultra_largetall.jpg);
+        background-size: 2250px;
+    }
+}
+
+.watch-ultra img,
+.watch-se img,
+.apple-card img {
+    width: 110px;
+}

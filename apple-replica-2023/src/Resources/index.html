@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Clone</title>
+
+    <!-- Bootstrap CSS only-->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style-apple.css" />
+
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon" />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/67330faae8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Apple page header -->
+    <header class="nav-bg fixed-top">
+      <div class="">
+        <!-- Phone nav -->
+        <nav class="list-unstyled text-decoration-none py-2 px-3 d-lg-none">
+          <div class="d-flex justify-content-between">
+            <div class="appleMenu">
+              <li class="text-decoration-none">
+                <a href="#"><i class="fa-solid fa-bars fs-5 pt-1 white"></i></a>
+              </li>
+            </div>
+
+            <div class="">
+              <li>
+                <a href="#">
+                  <img src="./icons/logo-sm.png" alt="" />
+                </a>
+              </li>
+            </div>
+            <div class="">
+              <li class="noCart">
+                <a href="#">
+                  <img src="./icons/cart-sm.png" alt="" />
+                </a>
+              </li>
+            </div>
+          </div>
+
+          <div class="dropMenu">
+            <!-- <div class="menuAppleLogo">
+                <a href="#">
+                  <img src="./icons/logo-sm.png" alt="" />
+                </a>
+              </div> -->
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search apple.com"
+            />
+
+            <div class="searchMenu">
+              <img src="./icons/search-icon-sm.png" alt="" />
+            </div>
+
+            <div class="hrStyle">
+              <hr />
+            </div>
+
+            <li><a href="/">Store</a></li>
+            <hr />
+            <li><a href="/">Mac</a></li>
+            <hr />
+            <li><a href="/">iPad</a></li>
+            <hr />
+            <li><a href="/">iPhone</a></li>
+            <hr />
+            <li><a href="/">Watch</a></li>
+            <hr />
+            <li><a href="/">AirPods</a></li>
+            <hr />
+            <li><a href="/">TV & Home</a></li>
+            <hr />
+            <li><a href="/">Only on Apple</a></li>
+            <hr />
+            <li><a href="/">Accessories</a></li>
+            <hr />
+            <li><a href="/">Support</a></li>
+          </div>
+        </nav>
+
+        <!-- Laptop nav -->
+        <nav
+          class="lap-menu container d-none d-lg-block list-unstyled text-decoration-none align-items-center py-2 Lap-nav-width"
+        >
+          <div class="">
+            <div class="d-flex justify-content-between align-items-center">
+              <li>
+                <a href="#">
+                  <img src="./icons/logo-sm.png" alt="" />
+                </a>
+              </li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Mac</a></li>
+              <li><a href="#">iPad</a></li>
+              <li><a href="#">iPhone</a></li>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">AirPods</a></li>
+              <li><a href="#">TV & Home</a></li>
+              <li><a href="#">Only on Apple</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Support</a></li>
+              <li>
+                <a href="#">
+                  <img src="./icons/search-icon-sm.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./icons/cart-sm.png" alt="" />
+                </a>
+              </li>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="fullHide">
+      <section class="text-center">
+        <div class="top-50">
+          <!-- ipad -->
+          <div class="container-fluid ipad bg-imgs">
+            <h1 class="fw-bold">iPad</h1>
+            <h4 class="">Lovable.Drawable.Magical.</h4>
+            <h5 class="grey">Available starting 10.26</h5>
+            <div class="links">
+              <div
+                class="d-flex justify-content-center align-items-center gap-1 pb-2"
+              >
+                <a href="#">Learn more</a
+                ><i class="fa-solid fa-chevron-right pe-4"></i>
+                <a href="#">Order now</a
+                ><i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- iPad Pro -->
+          <div class="container-fluid ipad-pro bg-imgs white">
+            <div class="fw-bold fs-1">iPad Pro</div>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <div class="fs-4">Supercharged by</div>
+              <div class="img-m2">
+                <img
+                  src="./images/hero_m2_chip__elhl46h8tbwy_small.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h5 class="grey">Available starting 10.26</h5>
+            <div class="links">
+              <div
+                class="d-flex justify-content-center align-items-center gap-1 pb-2"
+              >
+                <a href="#">Learn more</a
+                ><i class="fa-solid fa-chevron-right pe-4"></i>
+                <a href="#">Order now</a
+                ><i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- iphone-14 -->
+          <div class="container-fluid iphone-14 bg-imgs">
+            <h1 class="fw-bold">iPhone 14</h1>
+            <h5 class="">Big and bigger</h5>
+            <div class="links">
+              <div
+                class="d-flex justify-content-center align-items-center gap-1 pb-2"
+              >
+                <a href="#">Learn more</a
+                ><i class="fa-solid fa-chevron-right pe-4"></i>
+                <a href="#">Buy</a><i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- iphone-14-pro -->
+          <div class="container-fluid iphone-14-pro bg-imgs white">
+            <h1 class="fw-bold">iPhone 14 Pro</h1>
+            <h5 class="">Pro.Beyond</h5>
+            <div class="links">
+              <div
+                class="d-flex justify-content-center align-items-center gap-1 pb-2"
+              >
+                <a href="#">Learn more</a
+                ><i class="fa-solid fa-chevron-right pe-4"></i>
+                <a href="#">Buy</a><i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- watch-ultra -->
+          <div class="container-fluid watch-ultra bg-imgs">
+            <img
+              src="./icons/22hero_logo_apple_watch_ultra__etygmmkwgfma_largetall.png"
+              alt=""
+            />
+            <h5 class="grey pt-1">Adventure awaits.</h5>
+            <div class="links">
+              <div
+                class="d-flex justify-content-center align-items-center gap-1 pb-2"
+              >
+                <a href="#">Learn more</a
+                ><i class="fa-solid fa-chevron-right pe-4"></i>
+                <a href="#">Buy</a><i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- watch-series-8 and airPods-pro -->
+          <div class="container-fluid">
+            <div class="row">
+              <!-- watch-series-8 -->
+              <div class="col-md-6">
+                <div class="container-fluid watch-series-8 bg-imgs white">
+                  <img
+                    src="./icons/22promo_logo_apple_watch_series_8_ee6riplsucuq_large.png"
+                    alt=""
+                  />
+                  <h5 class="pt-1">A healthy leap ahead.</h5>
+                  <div class="links">
+                    <div
+                      class="d-flex justify-content-center align-items-center gap-1 pb-2"
+                    >
+                      <a href="#">Learn more</a
+                      ><i class="fa-solid fa-chevron-right pe-4"></i>
+                      <a href="#">Buy</a
+                      ><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- airPods-pro -->
+              <div class="col-md-6">
+                <div class="container-fluid airpods-pro bg-imgs white">
+                  <h1 class="fw-bold">AirPods Pro</h1>
+                  <h5 class="">Rebuilt from the sound up.</h5>
+                  <div class="links">
+                    <div
+                      class="d-flex justify-content-center align-items-center gap-1 pb-2"
+                    >
+                      <a href="#">Learn more</a
+                      ><i class="fa-solid fa-chevron-right pe-4"></i>
+                      <a href="#">Buy</a
+                      ><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- watch-se and fitness -->
+          <div class="container-fluid">
+            <div class="row">
+              <!-- watch-se -->
+              <div class="col-md-6">
+                <div class="container-fluid watch-se bg-imgs">
+                  <img
+                    src="./icons/22promo_logo_apple_watch_se__b85vr9ri02gi_large.png"
+                    alt=""
+                  />
+                  <h5 class="pt-1">A great deal to love.</h5>
+                  <div class="links">
+                    <div
+                      class="d-flex justify-content-center align-items-center gap-1 pb-2"
+                    >
+                      <a href="#">Learn more</a
+                      ><i class="fa-solid fa-chevron-right pe-4"></i>
+                      <a href="#">Buy</a
+                      ><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fitness -->
+              <div class="col-md-6">
+                <div class="container-fluid fitness bg-imgs">
+                  <img
+                    src="./icons/promo_logo_fitness_plus_iphone__dpayetemakq6_large.png"
+                    alt=""
+                  />
+                  <h5 class="pt-1">
+                    Fitness for everyone.<br />
+                    Now all you need is iPhone.
+                  </h5>
+                  <div class="links">
+                    <div
+                      class="d-flex justify-content-center align-items-center gap-1 pb-2"
+                    >
+                      <a href="#">Learn more</a
+                      ><i class="fa-solid fa-chevron-right pe-4"></i>
+                      <a href="#">Buy</a
+                      ><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- macbook-air and apple-card -->
+          <div class="container-fluid">
+            <div class="row">
+              <!-- macbook-air -->
+              <div class="col-md-6">
+                <div class="container-fluid macbook-air bg-imgs">
+                  <h1 class="fw-bold">MacBook Air</h1>
+                  <img
+                    src="./icons/logo_promo_macbookair__hy9ktdqqtv2a_large.png"
+                    alt=""
+                  />
+                  <div class="links pt-2">
+                    <div
+                      class="d-flex justify-content-center align-items-center gap-1 pb-2"
+                    >
+                      <a href="#">Learn more</a
+                      ><i class="fa-solid fa-chevron-right pe-4"></i>
+                      <a href="#">Buy</a
+                      ><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- apple-card -->
+              <div class="col-md-6">
+                <div class="container-fluid apple-card bg-imgs">
+                  <img src="./icons/22logo__dcojfwkzna2q_large.png" alt="" />
+                  <h5 class="grey pt-2">
+                    Get up to 3% Daily Cash back<br />
+                    with every purchase.
+                  </h5>
+                  <div class="links">
+                    <div
+                      class="d-flex justify-content-center align-items-center gap-1 pb-2"
+                    >
+                      <a href="#">Learn more</a
+                      ><i class="fa-solid fa-chevron-right pe-4"></i>
+                      <a href="#">Buy</a
+                      ><i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- slide images -->
+        <section class="mb-5 container slide-imgs">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/imagesSlide/00.jpg"
+                  class="d-block w-100"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>the greatest beer run ever</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/imagesSlide/22.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/imagesSlide/3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/imagesSlide/4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/imagesSlide/5.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/imagesSlide/6.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/imagesSlide/7.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </section>
+
+      <footer class="bg-light">
+        <!-- Phone footer -->
+        <div class="containe d-lg-none p-3 pho-text">
+          <div class="row">
+            <div class="col">
+              <div class="div-fotter">
+                <div class="">
+                  To access and use all the features of Apple Card, you must add
+                  Apple Card to Wallet on an iPhone or iPad with the latest
+                  version of iOS or iPadOS. Update to the latest version by
+                  going to Settings > General > Software Update. Tap Download
+                  and Install. <br />
+                  Available for qualifying applicants in the United States.
+                  <br /><br />
+                  A subscription is required for Apple Fitness+.<br /><br />
+                  Apple Fitness+ requires iOS 14.3 or later, iPadOS 14.3 or
+                  later,
+                  <br /><br />
+                  Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City
+                  Branch. <br /><br />
+                  Learn more about how Apple Card applications are evaluated at
+                  <a href="#">support.apple.com/kb/HT209218</a>. <br /><br />
+                </div>
+
+                <hr />
+                <br />
+
+                <div class="listUl">
+                  <div class="toggleSt1 d-flex justify-content-between px-1">
+                    <p class="">Shop and Learn</p>
+                    <span class="shopX1"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery1"
+                  >
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">TV & Home</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">AirTag</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt2 d-flex justify-content-between px-1">
+                    <p class="">Services</p>
+                    <span class="shopX2"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery2"
+                  >
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Apple news+</a></li>
+                    <li><a href="#">Apple TV+</a></li>
+                    <li><a href="#">Apple Arcade</a></li>
+                    <li><a href="#">Apple Card</a></li>
+                    <li><a href="#">iCloud</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt3 d-flex justify-content-between px-1">
+                    <p class="">Account</p>
+                    <span class="shopX3"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery3"
+                  >
+                    <li><a href="#">Manage Your Apple ID</a></li>
+                    <li><a href="#">Apple Store Account</a></li>
+                    <li><a href="#">iCloud.com</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt4 d-flex justify-content-between px-1">
+                    <p class="">Apple Store</p>
+                    <span class="shopX4"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery4"
+                  >
+                    <li><a href="#">Find a store</a></li>
+                    <li><a href="#">Genius Bar</a></li>
+                    <li><a href="#">Today at Apple</a></li>
+                    <li><a href="#">Apple Camp</a></li>
+                    <li><a href="#">Field Trip</a></li>
+                    <li><a href="#">Apple Store App</a></li>
+                    <li><a href="#">Refurbished and Clearance</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Apple Trade In</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Shopping Help</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt5 d-flex justify-content-between px-1">
+                    <p class="">For Business</p>
+                    <span class="shopX5"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery5"
+                  >
+                    <li><a href="#">Apple and Business</a></li>
+                    <li><a href="#">Shop for Business</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt6 d-flex justify-content-between px-1">
+                    <p class="">For Education</p>
+                    <span class="shopX6"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery6"
+                  >
+                    <li><a href="#">Apple and Education</a></li>
+                    <li><a href="#">Shop for College</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt7 d-flex justify-content-between px-1">
+                    <p class="">For Healthcare</p>
+                    <span class="shopX7"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery7"
+                  >
+                    <li><a href="#">Manage Your Apple ID</a></li>
+                    <li><a href="#">Apple Store Account</a></li>
+                    <li><a href="#">iCloud.com</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt8 d-flex justify-content-between px-1">
+                    <p class="">For Government</p>
+                    <span class="shopX8"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery8"
+                  >
+                    <li><a href="#">Apple and Education</a></li>
+                    <li><a href="#">Shop for College</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt9 d-flex justify-content-between px-1">
+                    <p class="">Apple Values</p>
+                    <span class="shopX9"><i class="fa-solid fa-plus"></i></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery9"
+                  >
+                    <li><a href="#">Find a store</a></li>
+                    <li><a href="#">Genius Bar</a></li>
+                    <li><a href="#">Today at Apple</a></li>
+                    <li><a href="#">Apple Camp</a></li>
+                    <li><a href="#">Field Trip</a></li>
+                    <li><a href="#">Apple Store App</a></li>
+                  </div>
+                  <hr />
+                  <div class="toggleSt10 d-flex justify-content-between px-1">
+                    <p class="">About Apple</p>
+                    <span class="shopX10"
+                      ><i class="fa-solid fa-plus"></i
+                    ></span>
+                  </div>
+                  <div
+                    class="d-flex flex-column gap-2 pt-2 slideToggleJsQuery10"
+                  >
+                    <li><a href="#">Find a store</a></li>
+                    <li><a href="#">Genius Bar</a></li>
+                    <li><a href="#">Today at Apple</a></li>
+                    <li><a href="#">Apple Camp</a></li>
+                    <li><a href="#">Field Trip</a></li>
+                    <li><a href="#">Apple Store App</a></li>
+                  </div>
+                  <hr />
+                </div>
+
+                <div class="div-more-ways">
+                  More ways to shop: <a href="#">Find an Apple Store</a> or
+                  <a href="#">other retailer</a> near you. Or call
+                  1-800-MY-APPLE.
+                </div>
+
+                <div class="">
+                  <div class="usa-icon-text gap-2 py-2">
+                    <div>
+                      <img src="./icons/16.png" alt="usa flag icon in circle" />
+                    </div>
+                    <div class="usa-text">United States</div>
+                  </div>
+                  <div class="py-2">
+                    Copyright &copy; 2019 Apple Inc. All rights reserved.
+                  </div>
+                </div>
+                <div class="terma-of-use">
+                  <ul class="px-1">
+                    <li class="tega"><a href="#">Privacy Policy</a></li>
+                    <li class="tega"><a href="#">Terms of Use</a></li>
+                    <li class="tega"><a href="#">Sales and Refunds</a></li>
+                    <li class="tega"><a href="#">Legal</a></li>
+                    <li class="tega"><a href="#">Site Map</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Laptop footer -->
+        <div class="d-none d-lg-block p-3 lap-text">
+          <div class="">
+            <div class="">
+              <div class="pb-2">
+                To access and use all the features of Apple Card, you must add
+                Apple Card to Wallet on an iPhone or iPad with the latest
+                version of iOS or iPadOS. Update to the latest version by going
+                to Settings > General > Software Update. Tap Download and
+                Install.
+              </div>
+              <div class="pb-2">
+                Available for qualifying applicants in the United States.
+              </div>
+              <div class="pb-2">
+                Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City
+                Branch.
+              </div>
+              <div class="pb-2">
+                Learn more about how Apple Card applications are evaluated at
+                <a href="#">support.apple.com/kb/HT209218</a>.
+              </div>
+            </div>
+
+            <hr />
+            <br />
+
+            <div class="d-flex justify-content-between">
+              <div>
+                <b>Shop and Learn</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Store</a></li>
+                  <li><a href="#">Mac</a></li>
+                  <li><a href="#">iPad</a></li>
+                  <li><a href="#">iPhone</a></li>
+                  <li><a href="#">Watch</a></li>
+                  <li><a href="#">TV & Home</a></li>
+                  <li><a href="#">AirPods</a></li>
+                  <li><a href="#">AirTag</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Gift Cards</a></li>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <b>Services</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Apple Music</a></li>
+                  <li><a href="#">Apple news+</a></li>
+                  <li><a href="#">Apple TV+</a></li>
+                  <li><a href="#">Apple Arcade</a></li>
+                  <li><a href="#">Apple Card</a></li>
+                  <li><a href="#">iCloud</a></li>
+                </div>
+                <br />
+                <b>Account</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Manage Your Apple ID</a></li>
+                  <li><a href="#">Apple Store Account</a></li>
+                  <li><a href="#">iCloud.com</a></li>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <b>Apple Store</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Find a store</a></li>
+                  <li><a href="#">Genius Bar</a></li>
+                  <li><a href="#">Today at Apple</a></li>
+                  <li><a href="#">Apple Camp</a></li>
+                  <li><a href="#">Field Trip</a></li>
+                  <li><a href="#">Apple Store App</a></li>
+                  <li><a href="#">Refubished and Clearance</a></li>
+                  <li><a href="#">Financing</a></li>
+                  <li><a href="#">Apple Trade In</a></li>
+                  <li><a href="#">Order Status</a></li>
+                  <li><a href="#">Shopping Help</a></li>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <b>For Business</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Apple and Business</a></li>
+                  <li><a href="#">Shop for Business</a></li>
+                </div>
+                <br />
+                <b class="d-flex flex-column gap-2">For Education</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Apple and Education</a></li>
+                  <li><a href="#">Shop for College</a></li>
+                </div>
+                <br />
+                <b class="d-flex flex-column gap-2">For Healthcare</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Manage Your Apple ID</a></li>
+                  <li><a href="#">Apple Store Account</a></li>
+                  <li><a href="#">iCloud.com</a></li>
+                </div>
+                <br />
+                <b class="d-flex flex-column gap-2">For Government</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Apple and Education</a></li>
+                  <li><a href="#">Shop for College</a></li>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column gap-2">
+                <b>Apple Values</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Find a store</a></li>
+                  <li><a href="#">Genius Bar</a></li>
+                  <li><a href="#">Today at Apple</a></li>
+                  <li><a href="#">Apple Camp</a></li>
+                  <li><a href="#">Field Trip</a></li>
+                  <li><a href="#">Apple Store App</a></li>
+                </div>
+                <br />
+                <b>About Apple</b>
+                <div class="d-flex flex-column gap-2 pt-2">
+                  <li><a href="#">Find a store</a></li>
+                  <li><a href="#">Genius Bar</a></li>
+                  <li><a href="#">Today at Apple</a></li>
+                  <li><a href="#">Apple Camp</a></li>
+                  <li><a href="#">Field Trip</a></li>
+                  <li><a href="#">Apple Store App</a></li>
+                </div>
+              </div>
+            </div>
+
+            <div class="div-more-ways">
+              More ways to shop: <a href="#">Find an Apple Store</a> or
+              <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
+            </div>
+
+            <hr />
+
+            <div class="d-flex">
+              <div>Copyright &copy; 2019 Apple Inc. All rights reserved.</div>
+              <div class="ps-3">
+                <div class="d-flex gap-1 bord-r">
+                  <div class="bord-r"><a href="#">Privacy Policy</a></div>
+                  <div class="bord-r"><a href="#">Terms of Use</a></div>
+                  <div class="bord-r"><a href="#">Sales and Refundsy</a></div>
+                  <div class="bord-r"><a href="#">Legal</a></div>
+                  <div class="bord-r"><a href="#">Site Map</a></div>
+                </div>
+              </div>
+              <div class="gap-2 flag-us">
+                <div class="">
+                  <img src="./icons/16.png" alt="usa flag icon in circle" />
+                </div>
+                <div class="usa-text">United States</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Javascript -->
+
+    <!-- Bootstrap jQuery -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="./js/bootstrap.js"></script>
+
+    <!-- Custom Js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.top-7 {
+    padding-top: 7px;
+}
+
+.top-30 {
+    margin-top: 50px;
+}
+
+.bg-red {
+    background: #e7dcdc;
+}
+
+.gift {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    height: 70px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.gift h1,
+.gift p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .gift {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background-color: #180b16;
+        text-align: center;
+    }
+
+    .gift h1 {
+        width: 700px;
+        margin: 0 auto;
+        font-size: 45px;
+        font-weight: 700;
+    }
+}

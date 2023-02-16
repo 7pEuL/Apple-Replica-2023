@@ -1,0 +1,98 @@
+.top-7 {
+    padding-top: 7px;
+}
+
+.font {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    height: 500px;
+}
+
+.font:hover {
+    scale: 1.01;
+}
+
+.font i {
+    padding-top: 200px;
+}
+
+.font p:hover {
+    margin-top: 100px;
+    color: #500653 !important;
+    scale: 1.5;
+}
+
+.font i:hover {
+    color: #ff9100;
+}
+
+.bg-violate {
+    background: #eee7ed;
+}
+
+.font h1 {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.MacBookPro {
+    height: 450px;
+    background-image: url(../../Resources/images/Small/mac_mini__d3310qb7lt6q_small.jpg);
+    background-size: 430px;
+    background-color: black;
+}
+
+.MacMini {
+    height: 500px;
+    background-image: url(../../Resources/images/Small/macbook_pro_14_16__dmqm5vr9l7yq_small.jpg);
+    background-size: 430px;
+    background-color: black;
+}
+
+@media (min-width:768px) {
+    .MacBookPro {
+        height: 550px;
+        background-image: url(../../Resources/images/Medium/macbook_pro_14_16__dmqm5vr9l7yq_medium_2x.jpg);
+        background-size: 750px;
+    }
+
+    .font {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background-color: #180b16;
+        text-align: center;
+    }
+
+    .font h1 {
+        width: 700px;
+        margin: 0 auto;
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .MacMini {
+        height: 600px;
+        background-image: url(../../Resources/images/Medium/mac_mini__d3310qb7lt6q_medium_2x.jpg);
+        background-size: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .MacBookPro {
+        height: 650px;
+        background-image: url(../../Resources/images/Large/macbook_pro_14_16__dmqm5vr9l7yq_large.jpg);
+        background-size: 1000px;
+    }
+
+    .MacMini {
+        height: 650px;
+        background-image: url(../../Resources/images/Large/mac_mini__d3310qb7lt6q_large.jpg);
+        background-size: 1000px;
+    }
+}

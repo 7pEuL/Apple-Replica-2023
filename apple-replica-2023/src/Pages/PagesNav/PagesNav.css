@@ -1,0 +1,79 @@
+.allPagesNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-violate {
+    background: #eee7ed;
+}
+
+.allPagesNav__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.allPagesNav__button button {
+    font-size: 11px;
+    width: 5px;
+    height: 24px;
+}
+
+.allPagesNav__menu svg {
+    color: #0f810b;
+    font-size: 30px;
+}
+
+.allPagesNav__menu p {
+    color: #000;
+    font-size: 11px;
+}
+
+.allPagesNav__menu p:hover {
+    color: #0f810b;
+    opacity: .7;
+}
+
+.allPagesNav__menu p:first-child {
+    color: #474545;
+}
+
+.allPagesNav__Name {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.allPagesNav__Name:hover {
+    scale: 1.03;
+}
+
+.allPagesNav .show {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .allPagesNav {
+        width: 1000px;
+        margin: 10px auto !important;
+    }
+
+    .allPagesNav .hide {
+        display: none;
+    }
+
+    .allPagesNav .show {
+        display: flex;
+
+    }
+}
+
+.bg-violate .allPagesNav__menu p {
+    color: #0c832a;
+}
+
+.bg-violate .allPagesNav__menu p:first-child {
+    color: #474545;
+}

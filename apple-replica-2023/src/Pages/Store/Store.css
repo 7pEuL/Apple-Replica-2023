@@ -1,0 +1,236 @@
+.storeSMS {
+    margin: 70px auto 0;
+}
+
+.storeSMS h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.storeSMS p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #4e4d4d;
+}
+
+.store {
+    width: 800px;
+    margin: 10px auto;
+}
+
+.store a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.store img {
+    width: 100%;
+    max-width: 120px;
+    max-height: 78px;
+    margin-bottom: 12px;
+}
+
+/* .store img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 158px;
+    margin-bottom: 12px;
+} */
+
+.store img:hover {
+    scale: 1.2;
+}
+
+.store a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.store a:hover {
+    opacity: .7;
+    text-decoration: underline;
+}
+
+.bg-store {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    background-size: 440px;
+}
+
+.macBookStore {
+    background: url(../../Resources/images/Store/store-card-40-macbook-pro-202301.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.macMiniStore {
+    background: url(../../Resources/images/Store/store-card-40-mac-mini-202301.jpg);
+    background-repeat: no-repeat;
+}
+
+.iPhone14 {
+    background: url(../../Resources/images/Store/store-card-40-iphone-14-202209_GEO_US.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.HOMEPOD {
+    background: url(../../Resources/images/Store/store-card-40-homepod-202301.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 400px;
+}
+
+.iPad {
+    background: url(../../Resources/images/Store/store-card-40-ipad-202210.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 390px;
+}
+
+.iPadPro {
+    background: url(../../Resources/images/Store/store-card-40-ipad-pro-202210.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.iPhone14Pro {
+    background: url(../../Resources/images/Store/store-card-40-iphone-14-pro-202209.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.watchGreen {
+    background: url(../../Resources/images/Store/store-card-40-watch-bhm-202301.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.watchUltra {
+    background: url(../../Resources/images/Store/store-card-40-watch-ultra-202209.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 390px;
+}
+
+.watchBlue {
+    background: url(../../Resources/images/Store/store-card-40-watch-s8-202209.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+@media (min-width: 768px) {
+    .store {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 450px;
+    }
+
+    .store a {
+        color: black;
+        font-size: 9px;
+        text-decoration: none;
+    }
+
+    .bg-store {
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 650px;
+        background-size: 455px;
+    }
+
+    .macBookStore {
+        background: url(../../Resources/images/Store/store-card-40-macbook-pro-202301.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 477px;
+    }
+
+    .iPhone14 {
+        background: url(../../Resources/images/Store/store-card-40-iphone-14-202209_GEO_US.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 455px;
+    }
+
+
+    .iPhone14Pro {
+        background: url(../../Resources/images/Store/store-card-40-iphone-14-pro-202209.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 455px;
+    }
+
+    .HOMEPOD {
+        background: url(../../Resources/images/Store/store-card-40-homepod-202301.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 477px;
+    }
+
+    .iPad {
+        background: url(../../Resources/images/Store/store-card-40-ipad-202210.jpg);
+        background-repeat: no-repeat;
+        background-size: 455px;
+        background-position: bottom;
+    }
+
+    .iPadPro {
+        background: url(../../Resources/images/Store/store-card-40-ipad-pro-202210.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 455px;
+    }
+
+    .watchGreen {
+        background: url(../../Resources/images/Store/store-card-40-watch-bhm-202301.jpg);
+        background-position: bottom;
+        background-size: 477px;
+        background-repeat: no-repeat;
+    }
+
+    .watchBlue {
+        background: url(../../Resources/images/Store/store-card-40-watch-s8-202209.jpg);
+        background-position: bottom;
+        background-size: 455px;
+        background-repeat: no-repeat;
+    }
+
+    .watchUltra {
+        background: url(../../Resources/images/Store/store-card-40-watch-ultra-202209.jpg);
+        background-position: bottom;
+        background-size: 455px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) {
+    .store {
+        width: 600px;
+    }
+
+    .store a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .longWidth {
+        width: 1300px;
+    }
+
+    .store {
+        width: 620px;
+    }
+}

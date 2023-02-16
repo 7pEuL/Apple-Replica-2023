@@ -1,0 +1,37 @@
+/* watch-se */
+.watch-se {
+    background-image: url(../../Resources/images/Small/promo_apple_watch_se__f9702l6odgi2_small.jpg);
+}
+
+@media (min-width:768px) {
+    .watch-se {
+        background-image: url(../../Resources/images/Medium/promo_apple_watch_se__f9702l6odgi2_medium.jpg);
+        background-size: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .watch-se {
+        background-image: url(../../Resources/images/Large/promo_apple_watch_se_large.jpg);
+        background-size: 1250px;
+    }
+}
+
+/* fitness */
+.fitness {
+    background-image: url(../../Resources/images/Small/promo-apple-fitness-plus-iphone__bzeal882mv7m_small.jpg);
+}
+
+@media (min-width:768px) {
+    .fitness {
+        background-image: url(../../Resources/images/Medium/promo-apple-fitness-plus-iphone__bzeal882mv7m_medium.jpg);
+        background-size: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .fitness {
+        background-image: url(../../Resources/images/Large/promo-apple-fitness-plus-iphone_large.jpg);
+        background-size: 1250px;
+    }
+}

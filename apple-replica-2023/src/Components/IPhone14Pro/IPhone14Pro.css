@@ -1,0 +1,20 @@
+/* iphone-14-pro */
+.iphone-14-pro {
+    background-image: url(../../Resources/images/Small/hero_iphone14pro__e5xbgo5ffhg2_small.jpg);
+    background-size: 700px;
+    background-color: black;
+}
+
+@media (min-width:768px) {
+    .iphone-14-pro {
+        background-image: url(../../Resources/images/Medium/hero_iphone14pro__e5xbgo5ffhg2_medium.jpg);
+        background-size: 1050px;
+    }
+}
+
+@media (min-width:992px) {
+    .iphone-14-pro {
+        background-image: url(../../Resources/images/Large/hero_iphone14pro_argetall_2x.jpg);
+        background-size: 2250px;
+    }
+}

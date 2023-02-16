@@ -1,0 +1,27 @@
+.fontSize1 {
+    font-size: .9rem;
+    color: #df5200;
+}
+
+.fontSize2 {
+    color: #510140;
+    font-size: .7rem;
+}
+
+.boldTitle {
+    font-size: 50px;
+    font-weight: 700;
+    color: #df5200;
+}
+
+.width{
+    width: 18rem;
+}
+
+.YouTube img {
+    width: 100%;
+}
+
+.YouTube {
+    width: 1300px !important;
+}

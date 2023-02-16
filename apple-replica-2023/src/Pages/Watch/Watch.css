@@ -1,0 +1,16 @@
+.word {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.word p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
+}

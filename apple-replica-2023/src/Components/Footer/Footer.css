@@ -1,0 +1,124 @@
+/* footer */
+.pho-text {
+    font-size: 12px;
+}
+
+.pho-text p {
+    opacity: .8;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.pho-text p:hover {
+    opacity: 1;
+}
+
+.div-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.div-footer a:hover {
+    text-decoration: underline;
+}
+
+.usa-icon-text {
+    display: flex;
+}
+
+.usa-text {
+    padding-top: 2px;
+}
+
+.opacity {
+    opacity: 1 !important;
+}
+
+.listUl li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    opacity: .9;
+}
+
+.term-of-use a {
+    font-size: 7px;
+}
+
+.term-of-use ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.term-of-use li {
+    border-right: solid .1px;
+    font-size: 1px;
+}
+
+.term-of-use li:last-child {
+    border-right: 0;
+}
+
+.tega {
+    padding-right: 5px;
+}
+
+.rotateX {
+    transform: rotate(45deg);
+}
+
+.listUl p {
+    font-size: 13px;
+    width: 330px;
+    /* background-color: #2c86d9; */
+}
+
+@media (min-width:992px) {
+    .lap-text {
+        width: 980px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .lap-text li {
+        list-style: none;
+    }
+
+    .lap-text p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .lap-text a {
+        text-decoration: none;
+        color: #3c3b3b;
+    }
+
+    .lap-text a:hover {
+        text-decoration: underline;
+    }
+
+    .div-more-ways a {
+        color: rgb(1, 136, 220);
+    }
+
+    .usa-text {
+        padding-top: 1px;
+    }
+
+    .border-r {
+        border-right: solid 1px;
+        padding: 0 7px;
+    }
+
+    .border-r:last-child {
+        border-right: 0;
+    }
+
+    .flag-us {
+        display: flex;
+        padding-left: 80px;
+    }
+}

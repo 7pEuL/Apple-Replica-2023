@@ -1,0 +1,37 @@
+/* watch-series-8 */
+.watch-series-8 {
+    background-image: url(../../Resources/images/Small/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+}
+
+@media (min-width:768px) {
+    .watch-series-8 {
+        background-image: url(../../Resources/images/Medium/promo_apple_watch_series_8__ch7rexplmihe_medium.jpg);
+        background-size: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .watch-series-8 {
+        background-image: url(../../Resources/images/Large/promo_apple_watch_series_8_large.jpg);
+        background-size: 1250px;
+    }
+}
+
+/* airpods-pro */
+.airpods-pro {
+    background-image: url(../../Resources/images/Small/promo_airpods_pro_avail__gaxggskofx6y_small.jpg);
+}
+
+@media (min-width:768px) {
+    .airpods-pro {
+        background-image: url(../../Resources/images/Medium/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg);
+        background-size: 600px;
+    }
+}
+
+@media (min-width:992px) {
+    .airpods-pro {
+        background-image: url(../../Resources/images/Large/promo_airpods_pro_avail_.jpg);
+        background-size: 1250px;
+    }
+}

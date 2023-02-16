@@ -1,0 +1,38 @@
+.wordD {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textP {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+@media (min-width: 992px) {
+    .textP {
+        display: flex;
+        color: black;
+        text-align: center;
+        font-weight: 700;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .textP {
+        display: flex;
+        justify-content: center;
+        color: black;
+        text-align: center;
+        font-weight: 700;
+        font-size: 19px;
+    }
+}

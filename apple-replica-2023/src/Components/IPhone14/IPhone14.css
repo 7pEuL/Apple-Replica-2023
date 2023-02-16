@@ -1,0 +1,21 @@
+/* iphone-14 */
+.iphone-14 {
+    background-image: url(../../Resources/images/Small/hero_iphone14_preorder__c4g2wjzuugqe_small.jpg);
+    height: 500px;
+    background-size: 900px;
+    padding-top: 40px;
+}
+
+@media (min-width:768px) {
+    .iphone-14 {
+        background-image: url(../../Resources/images/Medium/hero_iphone14_preorder__c4g2wjzuugqe_medium.jpg);
+        background-size: 1050px;
+    }
+}
+
+@media (min-width:992px) {
+    .iphone-14 {
+        background-image: url(../../Resources/images/Large/hero_iphone14_preorder_largetall_2x.jpg);
+        background-size: 2250px;
+    }
+}
