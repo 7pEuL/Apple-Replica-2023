@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "../../App.css";
 
-// import Header from "../../Components/Header/Header";
 import IPad from "../../Components/IPad/IPad";
 import IPadPro from "../../Components/IPadPro/IPadPro";
 import IPhone14 from "../../Components/IPhone14/IPhone14";
@@ -12,13 +11,11 @@ import WatchSEFitness from "../../Components/WatchSEFitness/WatchSEFitness";
 import MacBookAirAppleCard from "../../Components/MacBookAirAppleCard/MacBookAirAppleCard";
 import SlideImages from "../../Components/SlideImages/SlideImages";
 import PagesTemplate from "../PagesTemplate";
-// import YoutubeVideosTemplate from "../../Components/YoutubeVideos/YoutubeVideosTemplate";
-// import Footer from "../../Components/Footer/Footer";
+import YoutubeVideosTemplate from "../../Components/YoutubeVideos/YoutubeVideosTemplate";
 
 function Main() {
   return (
     <>
-      {/* <Header /> */}
       <PagesTemplate
         bgLogoClass="container-fluid MacBookPro bg-imgs white"
         BrandName="MacBook Pro"
@@ -43,9 +40,8 @@ function Main() {
       <WatchSeries8AirPodsPro />
       <WatchSEFitness />
       <MacBookAirAppleCard />
-      {/* <YoutubeVideosTemplate /> */}
+      <YoutubeVideosTemplate />
       <SlideImages />
-      {/* <Footer /> */}
     </>
   );
 }
