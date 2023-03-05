@@ -1,0 +1,30 @@
+{
+  "iPhoneProducts": [
+    {
+      "Product_id": 1,
+      "Product_url": "iPhone 14 Pro",
+      "Product_name": "iPhone 14 Pro",
+      "Description_id": 1,
+      "Product_brief_description": "A magical new way to interact with iPhone. Groundbreaking safety features designed to save lives. An innovative 48MP camera for mind-blowing detail. All powered by the ultimate smartphone chip.",
+      "Product_description": "Pro.Beyond",
+      "Product_img": "http://localhost:3000/static/media/hero_iphone14pro_argetall_2x.e04b285c7be8db387154.jpg",
+      "Product_link": "/iPhone 14 Pro",
+      "Price_id": 1,
+      "Starting_price": "$700",
+      "Price_range": "From $41.62/mo. for 24 mo. or $999 before tradeâ€‘in1"
+    },
+    {
+      "Product_id": 2,
+      "Product_url": "iPhone 14",
+      "Product_name": "iPhone 14",
+      "Description_id": 2,
+      "Product_brief_description": "Our longest battery life ever. Emergency SOS via satellite. Epic Proâ€‘level photos and videos. Big and bigger.",
+      "Product_description": "Big and bigger.",
+      "Product_img": "http://localhost:3000/static/media/hero_iphone14_preorder_largetall_2x.b931090dfb52c294016f.jpg",
+      "Product_link": "/iPhone 14",
+      "Price_id": 2,
+      "Starting_price": "$700",
+      "Price_range": "From $33.29/mo. for 24 mo. or $799 before tradeâ€‘in1"
+    }
+  ]
+}

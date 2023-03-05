@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add-Apple-Product</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <form action="http://localhost:2023/addiPhone" method="post">
+        <section class="flex">
+          <div class="sideWelcome">
+            <h1>Add iPhone Product</h1>
+
+            <!-- <label for="UserName">User Name:</label>
+            <br />
+            <input
+              type="text"
+              name="UserName"
+              placeholder="User Name"
+              required
+            />
+            <br /><br />
+
+            <label for="UserPassword">User Password:</label>
+            <br />
+            <input
+              type="password"
+              name="UserPassword"
+              placeholder="User Password"
+              required
+            /> -->
+          </div>
+
+          <section class="style">
+            
+            <label for="iPhoneTitle">iPhone Title:</label>
+            <br />
+            <input type="text" name="iPhoneTitle" placeholder="iPhone Title" />
+            <!-- <select name="iPhoneTitle" id="iPhoneTitle" required>
+              <option>- - - Choose iPhone Title - - -</option>
+              <option value="iPhone 7">iPhone 7</option>
+              <option value="iPhone 8">iPhone 8</option>
+              <option value="iPhone SE">iPhone SE</option>
+              <option value="iPhone XR">iPhone XR</option>
+              <option value="iPhone 11">iPhone 11</option>
+              <option value="iPhone 12">iPhone 12</option>
+              <option value="iPhone 13">iPhone 13</option>
+              <option value="iPhone 14">iPhone 14</option>
+            </select> -->
+            <br /><br />
+
+            <label for="iPhoneID">iPhone URL or Path:</label>
+            <br />
+            <input type="text" name="iPhoneID" placeholder="iPhone URL" />
+            <!-- <select name="iPhoneID" id="iPhoneID" required>
+              <option>- - - Choose iPhone ID - - -</option>
+              <option value="iPhone 7">iPhone 7</option>
+              <option value="iPhone 8">iPhone 8</option>
+              <option value="iPhone SE">iPhone SE</option>
+              <option value="iPhone XR">iPhone XR</option>
+              <option value="iPhone 11">iPhone 11</option>
+              <option value="iPhone 12">iPhone 12</option>
+              <option value="iPhone 13">iPhone 13</option>
+              <option value="iPhone 14">iPhone 14</option>
+            </select> -->
+            <br /><br />
+
+            <label for="imgPath">iPhone Image Path:</label>
+            <br />
+            <input
+              type="text"
+              name="imgPath"
+              placeholder="iPhone Image Path"
+              required
+            />
+            <br /><br />
+
+            <label for="iPhoneLink">iPhone Page Link:</label>
+            <br />
+            <input
+              type="text"
+              name="iPhoneLink"
+              placeholder="iPhone Page Link"
+              required
+            />
+            <br /><br />
+
+            <label for="StartPrice">Starting Price:</label>
+            <br />
+            <input
+              type="text"
+              name="StartPrice"
+              placeholder="Starting Price"
+              required
+            />
+            <br /><br />
+
+            <label for="PriceRange">Price Range:</label>
+            <br />
+            <input
+              type="text"
+              name="PriceRange"
+              placeholder="Price Range"
+              required
+            />
+            <br /><br />
+
+            <label for="FullDescription">Product Description</label>
+            <br />
+            <textarea
+              name="FullDescription"
+              cols="30"
+              rows="3"
+              required
+            ></textarea>
+            <br /><br />
+
+            <label for="BriefDescription">Product Brief Description</label>
+            <br />
+            <textarea
+              name="BriefDescription"
+              cols="30"
+              rows="7"
+              required
+            ></textarea>
+            <br /><br />
+
+            <div class="button">
+              <div class="reset">
+                <button type="reset">Reset</button>
+              </div>
+              <div class="submit">
+                <button type="submit">Add iPhone</button>
+              </div>
+            </div>
+          </section>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
