@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "../../App.css";
 
-// import Header from "../../Components/Header/Header";
 import IPad from "../../Components/IPad/IPad";
 import IPadPro from "../../Components/IPadPro/IPadPro";
 import IPhone14 from "../../Components/IPhone14/IPhone14";
@@ -18,7 +17,6 @@ import YoutubeVideosTemplate from "../../Components/YoutubeVideos/YoutubeVideosT
 function Main() {
   return (
     <>
-      {/* <Header /> */}
       <PagesTemplate
         bgLogoClass="container-fluid MacBookPro bg-imgs white"
         BrandName="MacBook Pro"
@@ -45,7 +43,6 @@ function Main() {
       <MacBookAirAppleCard />
       <YoutubeVideosTemplate />
       <SlideImages />
-      {/* <Footer /> */}
     </>
   );
 }
