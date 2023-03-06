@@ -12,7 +12,7 @@ import WatchSEFitness from "../../Components/WatchSEFitness/WatchSEFitness";
 import MacBookAirAppleCard from "../../Components/MacBookAirAppleCard/MacBookAirAppleCard";
 import SlideImages from "../../Components/SlideImages/SlideImages";
 import PagesTemplate from "../PagesTemplate";
-// import YoutubeVideosTemplate from "../../Components/YoutubeVideos/YoutubeVideosTemplate";
+import YoutubeVideosTemplate from "../../Components/YoutubeVideos/YoutubeVideosTemplate";
 // import Footer from "../../Components/Footer/Footer";
 
 function Main() {
@@ -43,7 +43,7 @@ function Main() {
       <WatchSeries8AirPodsPro />
       <WatchSEFitness />
       <MacBookAirAppleCard />
-      {/* <YoutubeVideosTemplate /> */}
+      <YoutubeVideosTemplate />
       <SlideImages />
       {/* <Footer /> */}
     </>
